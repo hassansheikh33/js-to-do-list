@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    <div class="container">
+			<div class="helpText col-12">
+				<h1>Work To-Dos</h1>
+				<p id="first">Enter text into the input field to add items to your list.</p>
+				<p id="second">Click the item to mark it as complete.</p>
+				<p id="third">Click the Delete Button to remove the item from your list.</p>
+			</div>
+
+			<div class="col-12">
+				<form class="input-form">
+					<input id="userInput" type="text" placeholder="New item..." maxlength="27">
+					<button id="enter">Add Item</button>
+				</form>
+			</div>
+
+		<!-- Empty List -->
+			<div class="listItems col-12">
+				<ul id="ul" class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+
+	</div>
+	<script type="text/javascript" src="list.js"></script>
+</body>
+</html>
